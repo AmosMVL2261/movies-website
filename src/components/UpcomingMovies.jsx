@@ -27,7 +27,7 @@ function UpcomingMovies() {
   }, [])
   
   return (
-	<div className='my-5' id='movies'>
+	<div className='my-5 w-[100%]' id='movies'>
 		<h2 className='text-white text-4xl font-bold ml-10 mb-4'>Upcoming Movies</h2>
     <div className='flex flex-col justify-center items-center flex-wrap sm:flex-row '>
       {
