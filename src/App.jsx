@@ -1,13 +1,13 @@
-import React from 'react'
-import Footer from './components/Footer'
-import Genre from './components/Genre'
-import Navbar from './components/Navbar'
-import Popular from './components/Popular'
-import UpcomingMovies from './components/UpcomingMovies'
+import React from "react";
+import Footer from "./components/Footer";
+import Genre from "./components/Genre";
+import Navbar from "./components/Navbar";
+import Popular from "./components/Popular";
+import UpcomingMovies from "./components/UpcomingMovies";
 
 function App() {
   return (
-    <div className='bg-gradient-2 w-full'>
+    <div className="bg-gradient-2 w-full">
       <Navbar />
       <Popular />
       {/*  */}
@@ -18,7 +18,7 @@ function App() {
       <Genre title="Science Fiction" genreID={878} />
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

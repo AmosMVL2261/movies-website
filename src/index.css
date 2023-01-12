@@ -1,48 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-	.font-outline-2 {
-	  -webkit-text-stroke: 2px black;
-	}
-	.font-outline-3 {
-	  -webkit-text-stroke: 3px black;
-	}
+  .font-outline-2 {
+    -webkit-text-stroke: 2px black;
+  }
+  .font-outline-3 {
+    -webkit-text-stroke: 3px black;
+  }
 }
 
 .tooltip {
   @apply invisible absolute;
 }
-  
+
 .has-tooltip:hover .tooltip {
-  @apply visible z-50
+  @apply visible z-50;
 }
 
 .bg-gradient-1 {
-	background: rgb(131,58,180);
-	background: linear-gradient(90deg, rgba(131,58,180,1) 24%, rgba(207,25,25,1) 100%);
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 24%,
+    rgba(207, 25, 25, 1) 100%
+  );
 }
 
 .bg-gradient-2 {
-	background: rgb(131,58,180);
-	background: linear-gradient(124deg, rgba(131,58,180,1) 0%, rgba(75,42,219,1) 43%, rgba(65,55,209,1) 71%, rgba(110,78,247,1) 100%);
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    124deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(75, 42, 219, 1) 43%,
+    rgba(65, 55, 209, 1) 71%,
+    rgba(110, 78, 247, 1) 100%
+  );
 }
 
 .bg-gradient-3 {
-	background: rgb(81,0,255);
-	background: linear-gradient(231deg, rgba(81,0,255,1) 0%, rgba(111,27,212,1) 27%, rgba(127,63,226,1) 48%, rgba(155,102,228,1) 61%, rgba(128,37,219,1) 100%);	
+  background: rgb(81, 0, 255);
+  background: linear-gradient(
+    231deg,
+    rgba(81, 0, 255, 1) 0%,
+    rgba(111, 27, 212, 1) 27%,
+    rgba(127, 63, 226, 1) 48%,
+    rgba(155, 102, 228, 1) 61%,
+    rgba(128, 37, 219, 1) 100%
+  );
 }
 
 .bg-darkGray {
-	background-color: #191A1C;
+  background-color: #191a1c;
 }
 
-
-
 .carousel-item-padding-40-px {
-	/*max-width: 191px;*/
-    /*min-width: 191px;*/
+  /*max-width: 191px;*/
+  /*min-width: 191px;*/
 }
